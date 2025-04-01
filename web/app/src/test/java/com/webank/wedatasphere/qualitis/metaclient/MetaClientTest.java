@@ -38,7 +38,7 @@ public class MetaClientTest {
 //            e.printStackTrace();
 //        }
 
-        String url = "http://10.107.116.91:8088/api/rest_j/v1/datasource/getPartitionStatisticInfo?database=bdp_test_ods_mask&tableName=100threepartiontest&partitionPath=/ds=20180830";
+        String url = "http://127.0.0.1:8088/api/rest_j/v1/datasource/getPartitionStatisticInfo?database=bdp_test_ods_mask&tableName=100threepartiontest&partitionPath=/ds=20180830";
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
